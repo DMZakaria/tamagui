@@ -9,6 +9,9 @@
     },
     "icon": "./assets/icon.png",
     "name": "expTamagui",
-    "slug": "expTamagui"
+    "slug": "expTamagui",
+    "android": {
+      "package": "com.test.tama"
+    }
   }
 }

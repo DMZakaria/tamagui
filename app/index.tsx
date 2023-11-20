@@ -35,6 +35,21 @@ export default function Home() {
         <Button onPress={() => router.push("/tabs")}>Go to tabs page</Button>
       </YStack>
 
+      <YStack space="$2.5">
+        <Button onPress={() => router.push("/tamagui1")}>
+          Tamagui simple list
+        </Button>
+        <Button onPress={() => router.push("/tamagui2")}>
+          Tamagui list with more elements
+        </Button>
+        <Button onPress={() => router.push("/rc1")}>
+          Simple React Native list
+        </Button>
+        <Button onPress={() => router.push("/rc2")}>
+          React native with more elements
+        </Button>
+      </YStack>
+
       <YStack space="$5">
         <YGroup
           bordered

@@ -31,6 +31,17 @@ export default function User() {
       <SelectDemo />
       <SpinnerDemo />
       <SwitchDemo />
+
+      <SpinnerDemo />
+      <SwitchDemo />
+      <DialogDemo />
+      <SelectDemo />
+      <SpinnerDemo />
+      <SwitchDemo />
+      <DialogDemo />
+      <SelectDemo />
+      <SpinnerDemo />
+      <SwitchDemo />
     </MyStack>
   );
 }

@@ -1,6 +1,6 @@
 import { Label, Switch, XStack } from "tamagui";
 
-export default function SwitchDemo() {
+export default function SwitchDemo(id) {
   return (
     <XStack
       alignItems="center"
@@ -16,7 +16,7 @@ export default function SwitchDemo() {
         Dark mode (does nothing)
       </Label>
       <Switch
-        id="switch-demo"
+        id="id"
         size="$4"
       >
         <Switch.Thumb animation="quick" />
